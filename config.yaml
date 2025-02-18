@@ -1,0 +1,15 @@
+# config.yaml
+
+# Database connection information
+database:
+  url: "postgresql://alpha_strat_read:G0Sis123!_read@vmlinpgsqlprd2:5432/alpha_strategies_prd_db"
+
+# Table mapping
+table_map:
+  bl: "bank_loans_bl"
+  em: "emerging_markets_em"
+  hy: "high_yield_hy"
+  ir: "rates_ir"
+  ig: "investment_grade_ig"
+  ec: "european_credit_ec"
+  eq: "equity_eq"
